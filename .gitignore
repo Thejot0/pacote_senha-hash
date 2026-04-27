@@ -1,0 +1,18 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ambientes virtuais
+venv/
+.venv/
+env/
+
+# Arquivos de build (gerados pelo pyproject.toml)
+dist/
+build/
+*.egg-info/
+
+# Pasta do Pytest
+.pytest_cache/

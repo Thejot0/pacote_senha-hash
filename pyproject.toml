@@ -1,0 +1,17 @@
+[project]
+name = "grador-senha"
+version = "0.1.0"
+description = "Gerador de senha hash/gerador de senha aleatoria com tamanho e complexibilidade com base na escolha do usuário"
+readme = "README.md"
+authors = [
+    {name = "the_jota",email = "jeremiassantana50@gmail.com"}
+]
+requires-python = "3.8"
+dependencies = ["bcrypt"
+]
+urls = "https://github.com/Thejot0/pacote_senha-hash.git"
+license-files = {file = "LICENSE"}
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
