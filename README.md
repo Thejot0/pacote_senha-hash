@@ -42,6 +42,8 @@ Siga os passos abaixo para configurar o ambiente localmente:
     source venv/bin/activate
 
     Instale o pacote (e suas dependências):
+
+      pip install gerador_senha
     
     Pacote criado em .toml por tanto, é possivel baixar em modo editável:
 
@@ -52,12 +54,12 @@ Siga os passos abaixo para configurar o ambiente localmente:
 
 from gerador_senha import gerador_hash, senha_aleatoria
 ### Exemplo de uso
-resultado = senha_simples(tamanho_caractere = 10)
+resultado = senhaaleatoria.senha_simples(tamanho_caractere = 10)
 
 
 senha = 'exemplo_senha'
 
-hash = cria_hash(senha)
+hash = gerador_hash.cria_hash(senha)
 
 ### 📂 Estrutura do Repositório
 Plaintext
@@ -71,8 +73,13 @@ Plaintext
     │   │   ├── __init__.cpython-312.pyc
     │   │   └── senha_aleatoria.cpython-312.pyc
     │   └── senha_aleatoria.py
+    ├── LICENSE
     ├── pyproject.toml
-    └── README.md
+    ├── README.md
+    └── tests
+        ├── __pycache__
+        │   └── test_gerador.cpython-312-pytest-7.4.4.pyc
+        └── test_gerador.py
 
 ## ✒️ Autor
-###  [the_jota](https://github.com/Thejot0)
+###  [GitHub](https://github.com/Thejot0)
