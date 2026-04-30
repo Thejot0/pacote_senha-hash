@@ -54,7 +54,7 @@ Siga os passos abaixo para configurar o ambiente localmente:
 
 from gerador_senha import gerador_hash, senha_aleatoria
 ### Exemplo de uso
-resultado = senhaaleatoria.senha_simples(tamanho_caractere = 10)
+resultado = senha_aleatoria.senha_simples(tamanho_caractere = 10)
 
 
 senha = 'exemplo_senha'
